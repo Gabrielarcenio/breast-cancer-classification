@@ -38,3 +38,53 @@ Você pode instalar essas bibliotecas usando pip:
 
 ```sh
 pip install numpy pandas matplotlib seaborn scikit-learn
+
+# Uso
+
+## Clone o repositório:
+
+```sh
+git clone https://github.com/seu-usuario/breast-cancer-classification.git
+cd breast-cancer-classification
+Execute o script Python:
+Certifique-se de que você tem o arquivo do dataset no caminho correto (/content/drive/MyDrive/RNA_Datasets/BreastCancerWisconsinDataSet.csv). Você pode ajustar o caminho no script, se necessário.
+
+sh
+Copiar código
+python main.py
+Google Colab:
+Se você estiver usando o Google Colab, certifique-se de que seu Google Drive está montado corretamente e o dataset está no diretório certo.
+
+Resultados
+Após executar o script, o modelo irá apresentar os seguintes resultados:
+
+Matriz de Confusão
+Pontuação de Acurácia
+Relatório de Classificação (Precisão, Recall, F1-Score)
+Número de épocas treinadas
+Parâmetros configurados no Perceptron
+Exemplo de Saída:
+sql
+Copiar código
+Acurácia dos testes: 0.956
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       100
+           1       0.95      0.93      0.94        71
+
+    accuracy                           0.96       171
+   macro avg       0.96      0.95      0.96       171
+weighted avg       0.96      0.96      0.96       171
+
+Número de épocas no treinamento: 10
+Lista de parâmetros configurados na Perceptron: {'penalty': None, 'alpha': 0.0001, 'fit_intercept': True, 'max_iter': 1000, 'tol': 0.001, 'shuffle': True, 'eta0': 1.0, 'n_jobs': None, 'random_state': 42, 'early_stopping': False, 'validation_fraction': 0.1, 'n_iter_no_change': 5, 'class_weight': None, 'warm_start': False}
+Contribuindo
+Contribuições são bem-vindas! Se você tiver qualquer ideia ou melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Agradecimentos
+Kaggle por fornecer o dataset.
+A biblioteca scikit-learn por fornecer ferramentas de aprendizado de máquina fáceis de usar.
+A plataforma Google Colab por fornecer um excelente ambiente para executar e compartilhar projetos de aprendizado de máquina.
