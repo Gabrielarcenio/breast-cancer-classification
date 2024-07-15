@@ -94,27 +94,18 @@ Após executar o script, o modelo irá apresentar os seguintes resultados:
 
 ### Exemplo de Saída:
 
-[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#exemplo-de-sa%C3%ADda)
+Acurácia dos testes: 0.956
 
-`Acurácia dos testes: 0.956 
+`precision    recall  f1-score   support
+ 0       0.96      0.98      0.97       100
+       1       0.95      0.93      0.94        71
+accuracy                           0.96       171`
 
-              precision    recall  f1-score   support`
-
-           0       0.96      0.98      0.97       100
-
-           1       0.95      0.93      0.94        71
-
-    accuracy                           0.96       171
-
-   macro avg       0.96      0.95      0.96       171
-
-weighted avg       0.96      0.96      0.96       171
+macro avg 0.96 0.95 0.96 171 weighted avg 0.96 0.96 0.96 171
 
 Número de épocas no treinamento: 10
 
-Lista de parâmetros configurados na Perceptron: {'penalty': None, 'alpha': 0.0001, 'fit`
-
-`
+Lista de parâmetros configurados na Perceptron: {'penalty': None, 'alpha': 0.0001, 'fit_intercept': True, 'max_iter': 1000, 'tol': 0.001, 'shuffle': True, 'eta0': 1.0, 'n_jobs': None, 'random_state': 42, 'early_stopping': False, 'validation_fraction': 0.1, 'n_iter_no_change': 5, 'class_weight': None, 'warm_start': False}
 
 Contribuindo
 
