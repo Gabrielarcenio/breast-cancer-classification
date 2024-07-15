@@ -1,56 +1,73 @@
-# Classificação de Câncer de Mama
+Classificação de Câncer de Mama
+===============================
+
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#classifica%C3%A7%C3%A3o-de-c%C3%A2ncer-de-mama)
 
 Este projeto é focado em classificar tumores de câncer de mama como malignos ou benignos usando técnicas de aprendizado de máquina. O dataset utilizado é o Breast Cancer Wisconsin disponível no Kaggle.
 
-## Índice
+Índice
+------
 
-- [Visão Geral](#visão-geral)
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#%C3%ADndice)
 
-- [Dataset](#dataset)
+-   [Visão Geral](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#vis%C3%A3o-geral)
 
-- [Instalação](#instalação)
+-   [Dataset](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#dataset)
 
-- [Uso](#uso)
+-   [Instalação](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#instala%C3%A7%C3%A3o)
 
-- [Resultados](#resultados)
+-   [Uso](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#uso)
 
-- [Contribuindo](#contribuindo)
+-   [Resultados](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#resultados)
 
-- [Licença](#licença)
+-   [Contribuindo](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#contribuindo)
 
-- [Agradecimentos](#agradecimentos)
+-   [Licença](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#licen%C3%A7a)
 
-## Visão Geral
+-   [Agradecimentos](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#agradecimentos)
+
+Visão Geral
+-----------
+
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#vis%C3%A3o-geral)
 
 O câncer de mama é uma doença comum e potencialmente mortal. O diagnóstico precoce é crucial para um tratamento eficaz. Este projeto utiliza aprendizado de máquina para classificar tumores de câncer de mama com base em várias características extraídas de imagens.
 
-## Dataset
+Dataset
+-------
 
-O dataset utilizado neste projeto é o [Breast Cancer Wisconsin dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) disponível no Kaggle. Ele contém características computadas a partir de imagens de câncer de mama, incluindo média, erro padrão e piores (maiores) valores de várias medições (por exemplo, raio, textura, perímetro, área, suavidade).
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#dataset)
+
+O dataset utilizado neste projeto é o [Breast Cancer Wisconsin dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) disponível no Kaggle. Ele contém características computadas a partir de imagens de câncer de mama, incluindo média, erro padrão e piores (maiores) valores de várias medições (por exemplo, raio, textura, perímetro, área, suavidade).
 
 ### Informações do Dataset:
 
-- **Características:** 30 características numéricas
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#informa%C3%A7%C3%B5es-do-dataset)
 
-- **Alvo:** Binário (maligno ou benigno)
+-   Características: 30 características numéricas
 
-- **Número de Instâncias:** 569
+-   Alvo: Binário (maligno ou benigno)
 
-## Instalação
+-   Número de Instâncias: 569
+
+Instalação
+----------
+
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#instala%C3%A7%C3%A3o)
 
 Para executar este projeto, você precisa ter Python e as seguintes bibliotecas instaladas:
 
-- numpy
+-   numpy
 
-- pandas
+-   pandas
 
-- matplotlib
+-   matplotlib
 
-- seaborn
+-   seaborn
 
-- scikit-learn
+-   scikit-learn
 
-- google.colab (se usar o Google Colab)
+-   google.colab (se usar o Google Colab)
 
 Você pode instalar essas bibliotecas usando pip:
 
@@ -58,15 +75,19 @@ Você pode instalar essas bibliotecas usando pip:
 
 Uso
 
----
+* * * * *
 
 ### Clone o repositório:
 
-`git clone https://github.com/seu-usuario/breast-cancer-classification.git
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#clone-o-reposit%C3%B3rio)
+
+`git clone <https://github.com/seu-usuario/breast-cancer-classification.git>
 
 cd breast-cancer-classification`
 
 ### Execute o script Python:
+
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#execute-o-script-python)
 
 Certifique-se de que você tem o arquivo do dataset no caminho correto (`/content/drive/MyDrive/RNA_Datasets/BreastCancerWisconsinDataSet.csv`). Você pode ajustar o caminho no script, se necessário.
 
@@ -74,11 +95,13 @@ Certifique-se de que você tem o arquivo do dataset no caminho correto (`/conten
 
 ### Google Colab:
 
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#google-colab)
+
 Se você estiver usando o Google Colab, certifique-se de que seu Google Drive está montado corretamente e o dataset está no diretório certo.
 
 Resultados
 
-----------
+* * * * *
 
 Após executar o script, o modelo irá apresentar os seguintes resultados:
 
@@ -94,12 +117,11 @@ Após executar o script, o modelo irá apresentar os seguintes resultados:
 
 ### Exemplo de Saída:
 
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#exemplo-de-sa%C3%ADda)
+
 Acurácia dos testes: 0.956
 
-`precision    recall  f1-score   support
- 0       0.96      0.98      0.97       100
-       1       0.95      0.93      0.94        71
-accuracy                           0.96       171`
+`precision recall f1-score support 0 0.96 0.98 0.97 100 1 0.95 0.93 0.94 71 accuracy 0.96 171`
 
 macro avg 0.96 0.95 0.96 171 weighted avg 0.96 0.96 0.96 171
 
@@ -109,15 +131,15 @@ Lista de parâmetros configurados na Perceptron: {'penalty': None, 'alpha': 0.00
 
 Contribuindo
 
-------------
+* * * * *
 
 Contribuições são bem-vindas! Se você tiver qualquer ideia ou melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Agradecimentos
 
---------------
+* * * * *
 
--   [Kaggle](https://www.kaggle.com/) por fornecer o dataset.
+-   [Kaggle](https://www.kaggle.com/) por fornecer o dataset.
 
 -   A biblioteca scikit-learn por fornecer ferramentas de aprendizado de máquina fáceis de usar.
 
