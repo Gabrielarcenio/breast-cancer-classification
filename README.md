@@ -1,4 +1,4 @@
-readme_content = """
+
 # Classificação de Câncer de Mama
 
 Este projeto é focado em classificar tumores de câncer de mama como malignos ou benignos usando técnicas de aprendizado de máquina. O dataset utilizado é o Breast Cancer Wisconsin disponível no Kaggle.
@@ -69,8 +69,8 @@ Após executar o script, o modelo irá apresentar os seguintes resultados:
 
 ### Exemplo de Saída:
 
-`Acurácia dos testes: 0.956
-              precision    recall  f1-score   support
+`Acurácia dos testes: 0.956 
+              precision    recall  f1-score   support`
 
            0       0.96      0.98      0.97       100
            1       0.95      0.93      0.94        71
@@ -81,6 +81,7 @@ weighted avg       0.96      0.96      0.96       171
 
 Número de épocas no treinamento: 10
 Lista de parâmetros configurados na Perceptron: {'penalty': None, 'alpha': 0.0001, 'fit`
+`
 
 Contribuindo
 ------------
