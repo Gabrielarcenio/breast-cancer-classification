@@ -94,6 +94,8 @@ Após executar o script, o modelo irá apresentar os seguintes resultados:
 
 ### Exemplo de Saída:
 
+[](https://github.com/Gabrielarcenio/breast-cancer-classification/blob/main/README.md#exemplo-de-sa%C3%ADda)
+
 `Acurácia dos testes: 0.956 
 
               precision    recall  f1-score   support`
